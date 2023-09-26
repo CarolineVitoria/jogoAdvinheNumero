@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700&display=swap');
+:root{
+    --font:'Skranji', cursive;
+    --bg-color: #F9F5EB;
+    --primary-color: #002B5B;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-style: italic;
+    font-size: 2rem;
+    font-family:  'Tourney', cursive;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 9rem;
+}
+p{
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#palpite{
+    display: block;
+    font-size: 15rem;
+    font-weight: 400;
+    font-style: normal;
+}
